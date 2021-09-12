@@ -46,9 +46,10 @@ class FreeplayState extends MusicBeatState
 		}
 
 		var isDebug:Bool = true;
+	
 
 		if (StoryMenuState.weekUnlocked[2] || isDebug)
-			addWeek(['Bopeebo', 'Fresh', 'Dadbattle'], 1, ['dad']);
+			addWeek(['Bopeebo', 'Fresh', 'Flopbattle'], 1, ['dad']);
 
 		if (StoryMenuState.weekUnlocked[2] || isDebug)
 			addWeek(['Spookeez', 'South', 'Monster'], 2, ['spooky', 'spooky', "monster"]);
